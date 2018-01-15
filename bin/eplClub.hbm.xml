@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 15, 2018 11:07:53 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.waramun.mypackage.EplClub" table="eplclub">
+        <id name="id" type="int">
+            <column name="ID" />
+        </id>
+        <property name="capacity" type="int">
+            <column name="CAPACITY" />
+        </property>
+        <property name="lastestEplChamp" type="int">
+            <column name="LASTEST_EPL_CHAMP" />
+        </property>
+        <property name="clubName" type="java.lang.String">
+            <column name="CLUB_NAME" />
+        </property>
+        <property name="stadium" type="java.lang.String">
+            <column name="STADIUM" />
+        </property>
+    </class>
+</hibernate-mapping>
